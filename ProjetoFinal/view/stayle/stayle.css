@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* =========================
    Logo da navbar
 ========================= */
@@ -108,4 +109,35 @@ p.esquerda {
 }
 #inicio{
   padding-top: -200px;
+=======
+.logo {
+    height: 80px;
+    width: auto;
+  }
+  .btn-orcamento{
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+  }
+  .btn-orcamento:hover {
+    background-color: #cc0000;
+  }
+  .navbar-nav .nav-item {
+    margin-right: 20px;
+  }
+  .btn-orcamento {
+  margin: 0 25px;
+}
+.novo-item:hover{
+    background-color: #cc0000;
+}
+.container
+.logo {
+    margin-top: -15px;
+    width: 250px;   /* largura da imagem */
+    height: 250px;  /* altura da imagem */
+>>>>>>> 6016d895510f779c77dcd1d8027145c80e3dc7f0
 }
