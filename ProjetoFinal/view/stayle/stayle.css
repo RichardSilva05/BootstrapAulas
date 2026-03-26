@@ -1,0 +1,111 @@
+/* =========================
+   Logo da navbar
+========================= */
+.logo {
+  height: 80px;
+  width: auto;
+}
+
+/* =========================
+   Botão orçamento
+========================= */
+.btn-orcamento {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 25px;
+}
+.btn-orcamento.esquerda {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 2px;
+}
+
+.btn-orcamento:hover {
+  background-color: #cc0000;
+}
+
+/* =========================
+   Espaçamento do menu
+========================= */
+.navbar {
+  padding: 4px 0;
+}
+
+.navbar-nav .nav-link {
+  font-size: 14px;
+}
+
+/* =========================
+   Seção início / conteúdo
+========================= */
+.conteudo-proposito {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Imagem da seção inicial */
+#inicio .logo {
+  margin-left: auto;
+  width: 300px;
+  height: 300px;
+  margin-right: 80px;
+  margin-top: -200px;
+}
+
+/* =========================
+   Seção sobre
+========================= */
+.logosobre {
+  width: 400px;
+  height: 300px;
+  margin-top: -200px;
+}
+
+/* =========================
+   Linhas HR personalizadas
+========================= */
+hr.esquerda {
+  border: none;
+  height: 2px;
+  background-color: #cc0000;
+  width: 50%;
+  margin-right: auto;
+   margin-top: -12px;
+}
+
+hr.direita {
+  border: none;
+  height: 2px;
+  background-color: #1e00c9;
+  width: 50%;
+  margin-left: auto;
+  margin-right: 300px;
+  margin-top: -12px;
+}
+
+/* =========================
+   Título seção sobre
+========================= */
+h1.esquerda {
+  margin-left: 780px;
+}
+
+/* =========================
+   Texto alinhado à direita
+========================= */
+p.esquerda {
+  max-width: 700px;
+  text-align: right;
+}
+#inicio{
+  padding-top: -200px;
+}

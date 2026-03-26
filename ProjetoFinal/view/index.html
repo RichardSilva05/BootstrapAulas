@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aprendendo Bootstrap 5 no UNISENAI</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      padding-top: 90px; /* espaço para navbar fixa */
+    }
+  </style>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="stayle/stayle.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="Logo" class="logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+
+          <li class="nav-item ms-lg-3">
+            <a class="nav-link text-white" href="#inicio">Inicio</a>
+          </li>
+
+          <li class="nav-item ms-lg-3">
+            <a class="nav-link text-white" href="#sobrenos">Sobre Nós</a>
+          </li>
+
+          <li class="nav-item ms-lg-3">
+            <a class="nav-link text-white" href="#valores">Missão</a>
+          </li>
+
+          <li class="nav-item ms-lg-3">
+            <a class="nav-link text-white" href="#parcerias">Parcerias</a>
+          </li>
+
+          <li class="nav-item ms-lg-3">
+            <button class="btn-orcamento">Fazer Orçamento</button>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Início -->
+  <section id="inicio" class="section py-5 mt-5">
+    <div class="container">
+
+      <h1 class="display-4">Transformando espaços</h1>
+
+      <h2 class="mt-4">
+        Em obras de arte precisão no detalhe,<br>
+        excelência em gesso.
+      </h2>
+
+      <div class="conteudo-proposito mt-4">
+
+        <p class="sobre">
+          “Nosso objetivo é elevar cada ambiente com qualidade,<br>
+          sofisticação e acabamento impecável,<br>
+          transformando ideias em realidade através do gesso.”
+        </p>
+
+        <img src="gessoinicio.jpg"
+          alt="Imagem de gesso"
+          class="img-fluid rounded-circle logo"
+          width="180">
+
+      </div>
+
+      <button class="btn-orcamento esquerda">Fazer Orçamento</button>
+
+    </div>
+  </section>
+
+  <hr class="esquerda">
+  <hr class="direita">
+
+  <!-- Sobre -->
+  <section id="sobrenos" class="section py-5">
+    <div class="container">
+
+      <h1 class="display-4 esquerda">Quem somos:</h1>
+
+      <div class="conteudo-proposito mt-4">
+
+        <img src="logo.png"
+          alt="Logo sobre"
+          class="img-fluid rounded-circle logosobre"
+          width="180">
+
+        <p class="esquerda">
+          A nossa empresa nasceu do sonho, da coragem e da dedicação de um único profissional:
+          Valmir Sabino da Silva.<br><br>
+
+          Com determinação e vontade de crescer, Valmir iniciou suas atividades sozinho,
+          levando para cada obra não apenas técnica, mas compromisso, responsabilidade
+          e paixão pelo que faz.<br><br>
+
+          Desde o início, o objetivo sempre foi claro: oferecer serviços em gesso com
+          qualidade superior, acabamento impecável e respeito total aos clientes.
+          Com muito esforço e profissionalismo, o que começou como um trabalho individual
+          foi conquistando espaço, credibilidade e a confiança de cada cliente atendido.<br><br>
+
+          Hoje, seguimos firmes nos mesmos valores que deram origem à empresa —
+          honestidade, pontualidade, excelência e atenção aos detalhes.
+          Cada projeto é tratado de forma única, buscando transformar ambientes
+          e superar expectativas.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="direita">
+  <hr class="esquerda">
+
+  <!-- Missão, Visão e Valores -->
+  <section id="valores" class="section py-5">
+    <div class="container text-center">
+
+      <h1 class="display-4">Construindo nosso futuro:</h1>
+
+      <div class="row g-4 mt-4 justify-content-center">
+
+        <div class="col-lg-6">
+          <div class="card shadow h-100">
+            <div class="card-body">
+              <h5>Missão</h5>
+              <p class="texto-missao">
+                Oferecer serviços em gesso com qualidade superior e acabamento impecável,
+                atuando com compromisso, responsabilidade e respeito em cada projeto.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card shadow h-100">
+            <div class="card-body">
+              <h5>Valores</h5>
+              <p>
+                Honestidade – Transparência e ética.<br>
+                Pontualidade – Cumprimento de prazos.<br>
+                Excelência – Alto padrão de acabamento.<br>
+                Compromisso com o cliente.<br>
+                Atenção aos detalhes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card shadow h-100">
+            <div class="card-body">
+              <h5>Visão</h5>
+              <p>
+                Ser reconhecida como referência em serviços de gesso na região,
+                destacando-se pela confiança e qualidade.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="direita">
+  <hr class="esquerda">
+
+  <!-- Parcerias -->
+  <section id="parcerias" class="section py-5">
+    <div class="container">
+
+      <h1 class="display-4 text-start">Trabalhos e Parcerias :</h1>
+
+      <div class="row align-items-center mt-4">
+
+        <div class="col-lg-7">
+
+          <div class="card shadow mb-3">
+            <div class="card-body">
+              <div class="d-flex align-items-center gap-3">
+                <img src="logo.png" width="90">
+                <small class="h6">Sabino Gesso</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="card shadow mb-3">
+            <div class="card-body">
+              <div class="d-flex align-items-center gap-3">
+                <img src="logo.png" width="90">
+                <small class="h6">Sabino Gesso</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="d-flex align-items-center gap-3">
+                <img src="logo.png" width="90">
+                <small class="h6">Sabino Gesso</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-5 text-center">
+          <img src="gessoparceria.jpg"
+            alt="Imagem de gesso"
+            class="img-fluid gessoparceria"
+            width="300">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
